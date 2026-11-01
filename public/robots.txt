@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mohd-hanan.github.io/hananverse/sitemap.xml
