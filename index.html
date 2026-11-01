@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0E0E0C">
+
+    <meta name="description" content="The personal portfolio of Hanan — a Computer Science student interested in building useful things with technology.">
+
+    <title>Muhammed Hanan P P | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a class="skip" href="#main">Skip to content</a>
+
+    <!-- Floating Navigation -->
+    <nav class="pill" aria-label="Main navigation">
+        <a href="#hero">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#footer">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+
+        <canvas id="starfield" class="starfield-canvas" aria-hidden="true"></canvas>
+        <div class="stars"></div>
+        <div class="moon"></div>
+        <div class="shooting-star" aria-hidden="true"></div>
+
+        <div class="note note-one">curious by nature ✦</div>
+        <div class="note note-two">always learning...</div>
+
+        <div class="hero-inner">
+
+            <div class="hero-grid">
+
+                <!-- Left Content -->
+                <div class="hero-left">
+
+                    <span class="eyebrow"><span class="eyebrow-sparkle">✦</span> A little corner of the internet</span>
+
+                    <h1>
+                        Hey, I'm<br>
+                        <span id="name">Hanan</span>
+                    </h1>
+
+                    <p id="tagline">Still learning, still building, still breaking things</p>
+
+                    <div class="hero-cta-group">
+                        <a href="#projects" class="hero-btn-primary">
+                            <span>Explore My Projects</span>
+                            <span class="hero-btn-arrow">↓</span>
+                        </a>
+                        <a href="https://github.com/Mohd-Hanan" target="_blank" rel="noopener noreferrer" class="hero-btn-secondary">
+                            <svg class="github-icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                            </svg>
+                            <span>GitHub Profile ↗</span>
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- Avatar -->
+                <div class="hero-image">
+                    <div class="hero-avatar-frame">
+                        <div class="avatar-glow"></div>
+                        <img
+                            src="assets/avatar.png"
+                            alt="Illustrated developer avatar"
+                            width="300"
+                            height="300"
+                        >
+                        <div class="hero-status-pill">
+                            <span class="status-dot"></span>
+                            <span>B.Tech CSE (AI) · TKMCE</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Content -->
+                <div class="hero-right">
+
+                    <div class="hero-bio-card">
+                        <div class="bio-card-header">
+                            <span class="bio-chip">✦ A bit about me</span>
+                        </div>
+
+                        <h2>Curious Developer</h2>
+
+                        <p id="bio">
+                            Third-year B.Tech CSE (AI) student at TKMCE, Kollam. Curious about newer technology and advancements in AI and ML. I learn best by building things and breaking them.
+                        </p>
+
+                        <div class="hero-badges">
+                            <span class="hero-badge">AI / ML</span>
+                            <span class="hero-badge">Reinforcement Learning</span>
+                            <span class="hero-badge">IoT</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Bottom Landscape -->
+        <div class="landscape">
+            <img
+                src="assets/landscape.svg"
+                alt="Illustrated hills, trees, a cat and a laptop"
+            >
+        </div>
+
+    </header>
+
+    <!-- Main Content -->
+    <main id="main">
+
+        <!-- Skills Constellation -->
+        <section id="skills" class="skills-section">
+            <div class="skills-header">
+                <h2>Skills Constellation</h2>
+                <div class="skills-header-actions">
+                    <p class="constellation-hint">
+                        <span class="hint-sparkle">✦</span>
+                        <span id="constellation-status-text">Select a constellation to explore</span>
+                    </p>
+                    <button type="button" id="reset-constellation" class="reset-constellation-btn" style="display: none;" aria-label="Reset constellation to initial view">
+                        <span class="reset-icon">↺</span>
+                        <span>Reset View</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Constellation Interactive Stage -->
+            <div class="constellation-stage" id="constellation-stage" role="region" aria-label="Interactive skills constellation network">
+                <svg id="constellation-svg" class="constellation-svg" aria-hidden="true">
+                    <defs>
+                        <filter id="glow-orange" x="-20%" y="-20%" width="140%" height="140%">
+                            <feGaussianBlur stdDeviation="3" result="blur" />
+                            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                        </filter>
+                    </defs>
+                    <g id="constellation-lines-layer"></g>
+                </svg>
+
+                <!-- Central Node (HANAN) -->
+                <button type="button" class="node-central" id="node-hanan" tabindex="0" role="button" aria-label="Center star: HANAN. Activates constellation reset.">
+                    <span class="central-glow"></span>
+                    <span class="central-star">✦</span>
+                    <span class="central-label">HANAN</span>
+                </button>
+
+                <!-- Category Nodes Layer -->
+                <div id="category-nodes-layer" class="category-nodes-layer"></div>
+
+                <!-- Revealed Technology Nodes Layer -->
+                <div id="tech-nodes-layer" class="tech-nodes-layer" aria-live="polite"></div>
+
+                <!-- Technology Detail Panel -->
+                <div id="tech-detail-panel" class="tech-detail-panel" role="dialog" aria-labelledby="tech-detail-title" aria-hidden="true">
+                    <button type="button" class="tech-detail-close" id="tech-detail-close" aria-label="Close technology details">✕</button>
+                    <div class="tech-detail-badge" id="tech-detail-category">PROGRAMMING</div>
+                    <h3 class="tech-detail-title" id="tech-detail-title">Python</h3>
+                    <div class="tech-detail-content" id="tech-detail-content"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+            <h2>Things I've built</h2>
+            <div class="grid">
+                <article class="card" tabindex="0" role="button" aria-haspopup="dialog" aria-label="View details for Wildfire Suppressing Multi-Drone Agent">
+                    <h3>Wildfire Suppressing Multi-Drone Agent</h3>
+                    <p>A custom wildfire simulation where four firefighting drones learn to cooperate using PPO reinforcement learning. Includes battery management, resource constraints and real-time PyGame visualization.</p>
+                    <a href="https://github.com/Mohd-Hanan/Wildfire-Suppressing-Multi-Drone-Agent" target="_blank" rel="noopener noreferrer">View project ↗</a>
+                </article>
+                <article class="card" tabindex="0" role="button" aria-haspopup="dialog" aria-label="View details for Customer Segmentation">
+                    <h3>Customer Segmentation</h3>
+                    <p>An interactive Streamlit dashboard that uses K-Means clustering to segment customers, visualize clusters with PCA, evaluate clustering quality and predict the segment of new customers.</p>
+                    <a href="https://github.com/Mohd-Hanan/IML-PROJECT" target="_blank" rel="noopener noreferrer">View project ↗</a>
+                </article>
+                <article class="card" tabindex="0" role="button" aria-haspopup="dialog" aria-label="View details for PowerGuard">
+                    <h3>PowerGuard</h3>
+                    <p>A JavaFX desktop application that predicts electricity bills, tracks monthly budgets and benchmarks five machine learning models to select the best-performing model.</p>
+                    <a href="https://github.com/Mohd-Hanan/AP-PROJECT" target="_blank" rel="noopener noreferrer">View project ↗</a>
+                </article>
+                <article class="card" tabindex="0" role="button" aria-haspopup="dialog" aria-label="View details for Water Level Monitoring System">
+                    <h3>Water Level Monitoring System</h3>
+                    <p>Developed an IoT-based water level monitoring system using Arduino UNO and ultrasonic sensors as part of Idea Lab (Semester 1).</p>
+                    <span class="project-note">Project details</span>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+
+        <p id="footer-name">© 2026 Muhammed Hanan P P</p>
+
+        <div id="links" class="hero-links">
+            <a href="https://github.com/Mohd-Hanan" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <button type="button" class="copy-btn" id="copy-github-btn" title="Copy GitHub profile URL" aria-label="Copy GitHub profile URL to clipboard">
+                <span id="copy-btn-icon">⎘</span> <span id="copy-btn-text">Copy GitHub URL</span>
+            </button>
+        </div>
+
+    </footer>
+
+    <p class="credit">
+        Built for FOSSSoC-S1 Portfolio Week · FOSS TKMCE
+    </p>
+
+    <!-- Project Detail Modal -->
+    <div id="project-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-card">
+            <button type="button" class="modal-close" id="modal-close" aria-label="Close dialog">✕</button>
+            <div class="modal-badge-row">
+                <span class="modal-badge" id="modal-badge">Project</span>
+            </div>
+            <h3 id="modal-title" class="modal-title"></h3>
+            <p id="modal-desc" class="modal-desc"></p>
+
+            <div class="modal-section">
+                <h4>Technologies & Tools</h4>
+                <div id="modal-tech" class="modal-tech-chips"></div>
+            </div>
+
+            <div class="modal-section">
+                <h4>Role & Contribution</h4>
+                <p id="modal-role" class="modal-role-text"></p>
+            </div>
+
+            <div class="modal-actions" id="modal-actions"></div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
