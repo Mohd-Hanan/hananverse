@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" width="400" height="440" role="img" aria-labelledby="avatar-title">
+  <title id="avatar-title">Illustrated developer character with round glasses and a dark hoodie</title>
+  <!-- Generic placeholder character. Replace this file with your own avatar (keep ~400x440 ratio). -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- hood, behind the neck -->
+    <path d="M106 334 C92 296 130 270 176 266 L224 266 C270 270 308 296 294 334 Z"
+          fill="#1D1B16" stroke="#FF6A2B" stroke-width="2.5" stroke-opacity=".8"/>
+
+    <!-- neck and chin shadow -->
+    <rect x="172" y="262" width="56" height="64" rx="14" fill="#E3AE86"/>
+    <path d="M174 286 Q200 314 226 286 Z" fill="#C98F6A" opacity=".55"/>
+
+    <!-- hoodie body -->
+    <path d="M18 440 C20 376 72 336 146 318 L254 318 C328 336 382 376 382 440 Z"
+          fill="#14130F" stroke="#FF6A2B" stroke-width="2.5" stroke-opacity=".55"/>
+
+    <!-- V neckline -->
+    <path d="M150 318 C166 350 234 350 250 318 Z"
+          fill="#E3AE86" stroke="#FF6A2B" stroke-width="2.5" stroke-opacity=".8"/>
+
+    <!-- hood strings with small tips -->
+    <path d="M178 336 C176 362 179 388 175 410" fill="none" stroke="#F3E9D8" stroke-width="3" opacity=".75"/>
+    <path d="M222 336 C224 362 221 388 225 410" fill="none" stroke="#F3E9D8" stroke-width="3" opacity=".75"/>
+    <circle cx="175" cy="414" r="3.5" fill="#F3E9D8" opacity=".75"/>
+    <circle cx="225" cy="414" r="3.5" fill="#F3E9D8" opacity=".75"/>
+
+    <!-- fabric folds -->
+    <path d="M112 420 C130 398 142 376 148 356" fill="none" stroke="#FF6A2B" stroke-width="2" opacity=".25"/>
+    <path d="M288 420 C270 398 258 376 252 356" fill="none" stroke="#FF6A2B" stroke-width="2" opacity=".18"/>
+
+    <!-- orange rim light on shoulders -->
+    <path d="M36 440 C40 394 80 354 140 334" fill="none" stroke="#FF6A2B" stroke-width="5" opacity=".9"/>
+    <path d="M364 440 C360 398 322 360 266 338" fill="none" stroke="#FF6A2B" stroke-width="3" opacity=".5"/>
+
+    <!-- ears -->
+    <ellipse cx="124" cy="214" rx="12" ry="16" fill="#F0C39C"/>
+    <ellipse cx="276" cy="214" rx="12" ry="16" fill="#F0C39C"/>
+    <path d="M121 208 Q126 214 121 221" fill="none" stroke="#C98F6A" stroke-width="2" opacity=".7"/>
+    <path d="M279 208 Q274 214 279 221" fill="none" stroke="#C98F6A" stroke-width="2" opacity=".7"/>
+
+    <!-- face -->
+    <ellipse cx="200" cy="204" rx="78" ry="88" fill="#F6D3B0" stroke="#FF6A2B" stroke-width="2" stroke-opacity=".35"/>
+
+    <!-- messy dark hair -->
+    <path d="M120 200 C106 156 112 118 142 100 C140 82 158 72 174 80 C180 60 204 58 214 76 C226 58 252 66 252 86 C276 90 298 120 290 160 C286 176 282 190 280 202 C270 172 256 156 236 150 C222 164 200 156 190 142 C176 160 150 166 134 188 C128 192 124 196 120 200 Z"
+          fill="#1B1510" stroke="#FF6A2B" stroke-width="2.5"/>
+    <!-- hair rim light and strands -->
+    <path d="M124 186 C112 150 120 120 142 102" fill="none" stroke="#FF6A2B" stroke-width="4" opacity=".9"/>
+    <path d="M150 112 C160 100 172 96 184 98" fill="none" stroke="#FF6A2B" stroke-width="2" opacity=".5"/>
+    <path d="M214 84 C222 92 232 94 242 92" fill="none" stroke="#FF6A2B" stroke-width="2" opacity=".5"/>
+    <path d="M256 108 C268 116 274 128 276 142" fill="none" stroke="#FF6A2B" stroke-width="2" opacity=".5"/>
+    <path d="M168 150 C176 144 184 144 192 148" fill="none" stroke="#FF6A2B" stroke-width="2" opacity=".4"/>
+    <!-- stray tufts -->
+    <path d="M174 80 C170 66 176 56 188 54" fill="none" stroke="#FF6A2B" stroke-width="2.5" opacity=".8"/>
+    <path d="M252 86 C262 74 276 74 282 82" fill="none" stroke="#FF6A2B" stroke-width="2.5" opacity=".8"/>
+
+    <!-- eyebrows, raised and friendly -->
+    <path d="M148 172 Q166 160 186 168" fill="none" stroke="#1B1510" stroke-width="4.5"/>
+    <path d="M214 168 Q234 160 252 172" fill="none" stroke="#1B1510" stroke-width="4.5"/>
+
+    <!-- round glasses -->
+    <circle cx="168" cy="208" r="26" fill="#FFF4E4" fill-opacity=".16" stroke="#0E0E0C" stroke-width="6"/>
+    <circle cx="232" cy="208" r="26" fill="#FFF4E4" fill-opacity=".16" stroke="#0E0E0C" stroke-width="6"/>
+    <path d="M194 206 Q200 200 206 206" fill="none" stroke="#0E0E0C" stroke-width="5"/>
+    <path d="M142 206 L126 203" fill="none" stroke="#0E0E0C" stroke-width="5"/>
+    <path d="M258 206 L274 203" fill="none" stroke="#0E0E0C" stroke-width="5"/>
+    <path d="M152 198 Q158 190 167 190" fill="none" stroke="#FFFFFF" stroke-width="3" opacity=".6"/>
+    <path d="M216 198 Q222 190 231 190" fill="none" stroke="#FFFFFF" stroke-width="3" opacity=".6"/>
+
+    <!-- eyes -->
+    <circle cx="170" cy="211" r="6" fill="#0E0E0C"/>
+    <circle cx="230" cy="211" r="6" fill="#0E0E0C"/>
+    <circle cx="172.5" cy="208.5" r="2" fill="#FFFFFF"/>
+    <circle cx="232.5" cy="208.5" r="2" fill="#FFFFFF"/>
+
+    <!-- nose -->
+    <path d="M200 226 Q195 238 202 242" fill="none" stroke="#C98F6A" stroke-width="3"/>
+
+    <!-- cheeks -->
+    <circle cx="146" cy="252" r="11" fill="#FF6A2B" opacity=".22"/>
+    <circle cx="254" cy="252" r="11" fill="#FF6A2B" opacity=".22"/>
+
+    <!-- friendly open smile with dimples -->
+    <path d="M172 256 Q200 290 228 256 Q200 266 172 256 Z" fill="#3A1810" stroke="#0E0E0C" stroke-width="3"/>
+    <path d="M182 261 Q200 269 218 261 Q200 265 182 261 Z" fill="#FFF4E4" stroke="none"/>
+    <path d="M166 258 Q163 264 167 268" fill="none" stroke="#C98F6A" stroke-width="2.5"/>
+    <path d="M234 258 Q237 264 233 268" fill="none" stroke="#C98F6A" stroke-width="2.5"/>
+
+  </g>
+</svg>

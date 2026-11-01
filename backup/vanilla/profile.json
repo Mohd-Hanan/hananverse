@@ -1,0 +1,37 @@
+
+{
+  "name": "Muhammed Hanan P P",
+  "tagline": "Still learning, still building, still breaking things",
+  "bio": "Third-year B.Tech CSE (AI) student at TKMCE, Kollam. Curious about newer technology and advancements in AI and ML. I learn best by building things and breaking them.",
+  "skills": [
+    "C",
+    "Java",
+    "Python",
+    "Git"
+  ],
+  "projects": [
+    {
+      "title": "Wildfire Suppressing Multi-Drone Agent",
+      "desc": "A custom wildfire simulation where four firefighting drones learn to cooperate using PPO reinforcement learning. Includes battery management, resource constraints and real-time PyGame visualization.",
+      "link": "https://github.com/Mohd-Hanan/Wildfire-Suppressing-Multi-Drone-Agent"
+    },
+    {
+      "title": "Customer Segmentation",
+      "desc": "An interactive Streamlit dashboard that uses K-Means clustering to segment customers, visualize clusters with PCA, evaluate clustering quality and predict the segment of new customers.",
+      "link": "https://github.com/Mohd-Hanan/IML-PROJECT"
+    },
+    {
+      "title": "PowerGuard",
+      "desc": "A JavaFX desktop application that predicts electricity bills, tracks monthly budgets and benchmarks five machine learning models to select the best-performing model.",
+      "link": "https://github.com/Mohd-Hanan/AP-PROJECT"
+    },
+    {
+      "title": "Water Level Monitoring System",
+      "desc": "Developed an IoT-based water level monitoring system using Arduino UNO and ultrasonic sensors as part of Idea Lab (Semester 1).",
+      "link": ""
+    }
+  ],
+  "links": {
+    "github": "https://github.com/Mohd-Hanan"
+  }
+}

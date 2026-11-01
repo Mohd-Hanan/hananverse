@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 320" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+  <defs>
+    <path id="pine" d="M0 -70 L-16 -40 H-7 L-22 -12 H-9 L-26 14 H26 L9 -12 H22 L7 -40 H16 Z"/>
+  </defs>
+  <g stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- sun, partly hidden behind the far hills -->
+    <circle cx="1340" cy="214" r="28" fill="#FF6A2B"/>
+
+    <!-- far hills -->
+    <path d="M0 232 L120 192 L260 226 L420 172 L600 232 L780 196 L960 236 L1140 192 L1320 226 L1480 186 L1600 216 L1600 320 L0 320 Z"
+          fill="#12110E" stroke="#FF6A2B" stroke-width="2" stroke-opacity=".3"/>
+
+    <!-- pines -->
+    <g fill="#0C0B09" stroke="#FF6A2B" stroke-width="1.5" stroke-opacity=".4">
+      <use href="#pine" transform="translate(330 262) scale(.7)"/>
+      <use href="#pine" transform="translate(376 264) scale(.55)"/>
+      <use href="#pine" transform="translate(1452 262) scale(.8)"/>
+      <use href="#pine" transform="translate(1506 264) scale(.62)"/>
+      <use href="#pine" transform="translate(1556 262) scale(.78)"/>
+    </g>
+
+    <!-- foreground hill with rim light -->
+    <path d="M0 285 C200 262 360 270 520 262 C700 252 860 268 1040 262 C1240 255 1420 270 1600 258 L1600 320 L0 320 Z"
+          fill="#0A0A09" stroke="#FF6A2B" stroke-width="3"/>
+
+    <!-- grass tufts -->
+    <g fill="none" stroke="#FF6A2B" stroke-width="2" stroke-opacity=".8">
+      <path d="M40 276 l-3 -12 M40 276 l0 -16 M40 276 l4 -11"/>
+      <path d="M260 268 l-3 -12 M260 268 l0 -16 M260 268 l4 -11"/>
+      <path d="M470 268 l-3 -12 M470 268 l0 -16 M470 268 l4 -11"/>
+      <path d="M1030 268 l-3 -12 M1030 268 l0 -16 M1030 268 l4 -11"/>
+      <path d="M1200 262 l-3 -12 M1200 262 l0 -16 M1200 262 l4 -11"/>
+      <path d="M1400 268 l-3 -12 M1400 268 l0 -16 M1400 268 l4 -11"/>
+    </g>
+
+    <!-- sign (blank: the text is added as HTML in Step 3) -->
+    <g transform="translate(120 272)" fill="#0E0E0C" stroke="#FF6A2B" stroke-width="2.5">
+      <rect x="-4" y="-70" width="8" height="70"/>
+      <g transform="rotate(-8)">
+        <rect x="-62" y="-92" width="124" height="30" rx="3"/>
+        <path d="M-44 -77 H44" fill="none" stroke-opacity=".5"/>
+      </g>
+      <g transform="rotate(6)">
+        <rect x="-58" y="-60" width="116" height="28" rx="3"/>
+        <path d="M-40 -46 H40" fill="none" stroke-opacity=".5"/>
+      </g>
+    </g>
+
+    <!-- cat, seen from behind -->
+    <g transform="translate(700 262)" fill="#0E0E0C" stroke="#FF6A2B" stroke-width="2.5">
+      <path d="M60 -4 C86 0 94 -26 78 -36" fill="none"/>
+      <path d="M-6 0 C-12 -28 -2 -52 10 -62 L44 -62 C56 -52 66 -28 60 0 Z"/>
+      <path d="M10 -82 L12 -104 L27 -90 Z"/>
+      <path d="M44 -82 L42 -104 L27 -90 Z"/>
+      <ellipse cx="27" cy="-72" rx="19" ry="16"/>
+    </g>
+
+    <!-- laptop with a smiley screen -->
+    <g transform="translate(870 262)" stroke="#FF6A2B" stroke-width="2.5">
+      <path d="M-34 -14 L-26 -68 L58 -68 L64 -14 Z" fill="#171612"/>
+      <path d="M-62 0 L-42 -14 L72 -14 L92 0 Z" fill="#0E0E0C"/>
+      <g fill="none" stroke="#FFB36B" stroke-width="2.5">
+        <circle cx="4" cy="-46" r="2.5" fill="#FFB36B"/>
+        <circle cx="28" cy="-46" r="2.5" fill="#FFB36B"/>
+        <path d="M4 -34 Q16 -26 28 -34"/>
+      </g>
+    </g>
+
+  </g>
+</svg>
